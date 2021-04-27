@@ -1,0 +1,39 @@
+@import "./header.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/root";
+@import "../node_modules/bootstrap/scss/reboot";
+@import "../node_modules/bootstrap/scss/type";
+@import "../node_modules/bootstrap/scss/images";
+@import "../node_modules/bootstrap/scss/containers";
+@import "../node_modules/bootstrap/scss/grid";
+$text-color: gray;
+$hover-btn-color: yellow;
+$transition-collapse: height 0.35s ease;
+
+body {
+  background-color: $text-color;
+  position: relative;
+}
+.btn {
+  padding: 20px 20px;
+  background-color: tomato;
+  cursor: pointer;
+  transition: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+
+  &:hover {
+    background-color: $hover-btn-color;
+    border-radius: 50%;
+  }
+}
+
+.collapse {
+  &:not(.show) {
+    display: none;
+  }
+}
+
+.collapsing {
+  height: 0;
+  overflow: hidden;
+  transition: $transition-collapse;
+}
