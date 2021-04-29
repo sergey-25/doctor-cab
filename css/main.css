@@ -26,4 +26,9 @@ body {
 .stop {
   position: relative;
   z-index: 101;
+}
+
+.moz {
+  border: 1px solid red;
+  padding: 20px;
 }/*# sourceMappingURL=main.css.map */
