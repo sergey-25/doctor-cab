@@ -1,29 +1,24 @@
 body {
   height: 100%;
 }
-
 .col-8 {
   height: 600px;
 }
-
 .nav-link {
   color: black;
   background-color: #ebdede;
   margin-bottom: 5px;
 }
-
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: white;
   background-color: #050505;
 }
-
 .sticky {
   position: fixed;
   z-index: 101;
 }
-
 .stop {
   position: relative;
   z-index: 101;
-}/*# sourceMappingURL=main.css.map */
+}
